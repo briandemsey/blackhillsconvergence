@@ -71,6 +71,7 @@ footer{border-top:1px solid var(--line);padding:30px 0 50px;display:flex;gap:24p
 .cap p{margin:0;color:#667085;font-size:15.5px}
 .backlink{display:inline-block;margin-top:26px;color:var(--navy);font-weight:600;text-decoration:none}
 
+.backbar{max-width:1000px;margin:14px auto 0;padding:0 24px}.backbar a{color:#12294a;text-decoration:none;font-weight:600;font-size:15px}.backbar a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
@@ -78,12 +79,14 @@ footer{border-top:1px solid var(--line);padding:30px 0 50px;display:flex;gap:24p
 <nav>
   <a href="index.html"><div class="logo" role="img" aria-label="Black Hills Interdisciplinary Institutes"></div></a>
   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#gallery">Around town</a></li>
+    <li><a href="index.html#why">Why Spearfish</a></li>
+    <li><a href="index.html#built-by">Who is behind it</a></li>
+    <li><a href="index.html#questions">Questions</a></li>
     <li><a href="questionnaire.html">Questionnaire</a></li>
   </ul>
   <a class="btn" href="coming-soon.html">Enter with your access code</a>
 </nav>
+<div class="backbar"><a href="index.html" onclick="if(history.length>1){history.back();return false}">&larr; Back</a></div>
 <main>
 <div class="wrap">
   <header class="tourhero">
